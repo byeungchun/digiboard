@@ -1,8 +1,29 @@
-[build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
-
 [project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
-dynamic = ["version", "description"]
+name = "digiboard"  # Required
+description = "real-time data dashboard"  # Optional
+readme = "README.rst" # Optional
+requires-python = ">=3.9"
+version = "0.0.1"  # Required
+license = {file = "LICENSE.txt"}
+
+keywords = ["sample", "setuptools", "development"]  # Optional
+
+authors = [
+  {name = "John Doe", email = "author@example.com" } # Optional
+]
+dynamic = ["dependencies"]
+
+[build-system]
+# These are the assumed default build requirements from pip:
+# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.versioneer]
+VCS = "git"
+style = "pep440"
+versionfile_source = "_version.py"
+parentdir_prefix = ""
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
