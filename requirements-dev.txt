@@ -3,3 +3,4 @@ jupyterlab
 versioneer
 pytest
 pylint
+black

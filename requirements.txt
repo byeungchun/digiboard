@@ -2,3 +2,5 @@ streamlit
 plotly
 scipy
 pydantic
+oracledb
+loguru
