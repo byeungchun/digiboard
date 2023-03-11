@@ -4,3 +4,18 @@ versioneer
 pytest
 pylint
 black
+pylint>=2.15.2
+pytest>=7.1.2
+pytest-cov>=3.0.0
+pytest-env>=0.6.2
+pytest-mock>=3.8.2
+rope>=1.2.0
+bandit>=1.7.4
+tox>=3.25.1
+setuptools>=63.1.0
+virtualenv>=20.15.1
+autopep8>=1.6.0
+jedi>=0.18.1
+pip-licenses>=3.5.4
+black>=22.6.0
+pytest-retry>=1.2.1; python_version >= '3.9'
