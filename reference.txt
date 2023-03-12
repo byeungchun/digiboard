@@ -1,0 +1,2 @@
+Using python-oracledb 1.0 with SQLAlchemy, Pandas, Django and Flask
+- https://levelup.gitconnected.com/using-python-oracledb-1-0-with-sqlalchemy-pandas-django-and-flask-5d84e910cb19

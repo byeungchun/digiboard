@@ -1,9 +1,6 @@
 -r requirements.txt
-jupyterlab
-versioneer
-pytest
-pylint
-black
+jupyterlab>=3.6.1
+versioneer>=0.28
 pylint>=2.15.2
 pytest>=7.1.2
 pytest-cov>=3.0.0

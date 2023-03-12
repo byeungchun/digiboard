@@ -1,5 +1,5 @@
 [project]
-name = "digiboard"  # Required
+name = "digirtp"  # Required
 description = "real-time data dashboard"  # Optional
 readme = "README.rst" # Optional
 requires-python = ">=3.9"
